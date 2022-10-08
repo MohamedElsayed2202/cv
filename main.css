@@ -1,0 +1,75 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #4f4f4f;
+}
+.container{
+    max-width: 1140px;
+}
+.site-title{
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+.nav-link{
+    color: rgba(0,0,0,.55);
+}
+.nav-link:hover{
+    color: rgba(0,0,0,.9);
+}
+.shadow-1 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2)!important;
+}
+.card{
+    border-radius: 0 !important;
+    border: none !important;
+    height: 500px;
+}
+.card-img{
+    height: 100%;
+    border-radius: 0 !important;
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+}
+.faw{
+    color: white;
+    font-size: 1.25rem;
+}
+.btn-outline-light:hover{
+    background-color: transparent !important;
+    color: #f8f9fa !important;
+}
+.about-icon{
+    width: 24px;
+    opacity: 0.85;
+}
+.timeline-card{
+    position: relative;
+    margin-left: 16px;
+}
+.timeline-card::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: -12px;
+    border: 5px solid;
+    z-index: 2;
+}
+.timeline-card-info::before{
+    border-color: #0dcaf0;
+}
+.timeline-card-danger::before{
+    border-color: #dc3545;
+}
+.timeline-body{
+    border-left: 2px solid #E6E9ED;
+}
